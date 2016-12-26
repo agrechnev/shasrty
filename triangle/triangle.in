@@ -1,0 +1,14 @@
+1 1.9 0.1 2.946                      ! J1 J2 Bu H
+4 0.5 0.560                         ! mode_alpha  alpha1 alpha2
+100000  0.2  1.e-10 1.e-12               ! maxit, lambda, tol_g, tol_e
+10                                   ! nshuffle
+
+ ! mode_alpha:
+ ! 0 = read alpha1,2
+ ! .ne. 0 = automatic alpha1,2
+ ! 1 = Neel : alpha1,2=1/2
+ ! 2 = Flip (FM) : alpha1,2=1/2 (alphas do not matter ?)
+ ! 3 = Dimer : alpha1,2=0
+ ! 4 = UUD  : alpha1,2= (2-rho+hh)/(3*hh)
+ ! 5 = Spin Flop : alpha1,2=1/2
+ ! 6 = Umbrella : alpha1,2=1/(rho+1) Is this right ?

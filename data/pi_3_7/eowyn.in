@@ -1,0 +1,4 @@
+14 14 1                         ! nx, ny, nz
+1.0 4.493959207434 0.0 0.0 0.0 2.0        ! J1, J2, J3, Bu, Be, H
+20000  0.15 1.e-7 1.e-9          ! maxit, lambda, tol_g, tol_e
+200                               ! nshuffle

@@ -1,0 +1,16 @@
+12 12  1                                          ! nx, ny, nz
+1.0 1.8 0.0 0.1 0.0                               ! J1, J2, J3, Bu, Be
+1   4.0  12.0                                     ! numh, H1, H2
+10000  0.2	 1.e-9 1.e-11                     ! maxit, lambda, tol_g, tol_e
+10                                                 ! nshuffle
+4 0.5  0.5                                        ! mode_alpha  alpha1 alpha2
+
+ ! mode_alpha (for trigen only):
+ ! 0 = read alpha1,2
+ ! .ne. 0 = automatic alpha1,2
+ ! 1 = Neel : alpha1,2=1/2
+ ! 2 = Flip (FM) : alpha1,2=1/2 (alphas do not matter)
+ ! 3 = Dimer : alpha1,2=0
+ ! 4 = UUD  : alpha1,2= (2-rho+hh)/(3*hh)
+ ! 5 = Spin Flop : alpha1,2=1/2
+ ! 6 = Umbrella : alpha1,2=1/(rho+1) Is this right ?

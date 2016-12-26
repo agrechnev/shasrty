@@ -1,0 +1,3 @@
+6  6  1                      ! nx, ny, nz
+1.0 2.0 0.0 0.0 0.0 3.0        ! J1, J2, J3, Bu, Be, H
+100000  0.2  1.e-7 1.e-9        ! maxit, lambda, tol_g, tol_e
